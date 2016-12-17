@@ -1,3 +1,5 @@
+*Forked from original Yahoo repo here: https://github.com/yahoo/react-dnd-touch-backend*
+
 <img src="https://avatars2.githubusercontent.com/u/6412038?v=3&s=200" alt="react logo" title="react" align="right" width="64" height="64" />
 
 # react-dnd-touch-backend
