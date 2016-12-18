@@ -2,11 +2,9 @@
 
 <img src="https://avatars2.githubusercontent.com/u/6412038?v=3&s=200" alt="react logo" title="react" align="right" width="64" height="64" />
 
-# react-dnd-touch-backend
+# react-dnd-touch-backend-dk
 
-[![npm version](https://badge.fury.io/js/react-dnd-touch-backend.svg)](http://badge.fury.io/js/react-dnd-touch-backend)
-[![Dependency Status](https://david-dm.org/yahoo/react-dnd-touch-backend.svg)](https://david-dm.org/yahoo/react-dnd-touch-backend)
-[![devDependency Status](https://david-dm.org/yahoo/react-dnd-touch-backend/dev-status.svg)](https://david-dm.org/yahoo/react-dnd-touch-backend#info=devDependencies)
+[![npm version](https://badge.fury.io/js/react-dnd-touch-backend-dk.svg)](http://badge.fury.io/js/react-dnd-touch-backend-dk)
 
 Touch Backend for [react-dnd](https://github.com/gaearon/react-dnd)
 
@@ -14,7 +12,7 @@ Touch Backend for [react-dnd](https://github.com/gaearon/react-dnd)
 Follow [react-dnd docs](http://gaearon.github.io/react-dnd/) to setup your app. Then swap out `HTML5Backend` for `TouchBackend` as such:
 
 ```js
-import { default as TouchBackend } from 'react-dnd-touch-backend';
+import { default as TouchBackend } from 'react-dnd-touch-backend-dk';
 import { DragDropContext } from 'react-dnd';
 
 var YourApp = React.createClass(
@@ -26,7 +24,7 @@ module.exports = DragDropContext(TouchBackend)(YourApp);
 ```
 ## Tips
 ### Drag Preview
-Since native Drag-n-Drop is not currently supported in touch devices. A custom [DragPreview](https://gaearon.github.io/react-dnd/docs-drag-layer.html) is required. Check out the [example](https://github.com/yahoo/react-dnd-touch-backend/blob/master/examples/js/ItemPreview.jsx) for a sample implementation.
+Since native Drag-n-Drop is not currently supported in touch devices. A custom [DragPreview](https://gaearon.github.io/react-dnd/docs-drag-layer.html) is required. Check out the [example](https://github.com/dhenson02/react-dnd-touch-backend-dk/blob/master/examples/js/ItemPreview.jsx) for a sample implementation.
 
 We might try to build it directly in the Backend itself in the future to compensate for this limitation.
 

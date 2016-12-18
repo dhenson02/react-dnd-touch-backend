@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/yahoo/react-dnd-touch-backend/issues"
   },
-  "homepage": "https://github.com/yahoo/react-dnd-touch-backend#readme",
+  "homepage": "https://github.com/dhenson02/react-dnd-touch-backend-dk#readme",
   "dependencies": {
     "react-dnd": "^2.1.4",
     "invariant": "^2.1.1"
